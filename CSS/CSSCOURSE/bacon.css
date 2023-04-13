@@ -1,0 +1,35 @@
+/*****************TAGS SELECTORS*************/
+
+h1 {
+  color: red;
+  font-size: 100px;
+}
+/* the best pratice is to always keep your properties in alphabetical order */
+/* we also have element with colon at the front which are called psuedo element */
+img:hover {
+  background-color: gold;
+}
+
+/*****************CLASSES SELECTORS*************/
+
+/* Classes allow us to differentiate the properties we wanna use in our diffrerent selectors */
+.broccoli {
+  background-color: red;
+}
+
+.ms {
+  background-color: greenyellow;
+  width: 180px;
+}
+
+.circular {
+  border-radius: 100%;
+}
+
+/*****************ID SELECTORS*************/
+
+#heading {
+  color: red;
+}
+/* ID's are use when we have specfic selectors to target, so in terms of classes and id, classes can select more than one selctor with same name while ID's cannot. */
+/* Classes can also take more than one class name */

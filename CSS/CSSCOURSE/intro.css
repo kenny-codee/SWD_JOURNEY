@@ -1,0 +1,24 @@
+/* External CSS */
+body {
+  background-color: #eaf6f6;
+}
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-top-width: 5px;
+  border-color: rgb(229, 126, 126);
+  width: 10%;
+}
+
+h1,
+h3 {
+  color: #57c5b6;
+}
+/* the CSS Sytax
+selector {
+    property : value;
+    the selector is the who you want to change in the css,
+    the property is the what you want to change 
+    the value is how you want to chnage it
+    the ; is the full stop.
+ */

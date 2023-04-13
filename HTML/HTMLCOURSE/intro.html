@@ -1,0 +1,198 @@
+<!-- HTML which is called Hypertext Markup Language is use to construct our website -->
+
+<!-- html element 
+1. the heading elemet - from th word heading is use to write headings in our websites. It goes from h1 - h6 and the logic is the higher the heading number,the smaller the letter 
+2. the line break element - this element is use to give space to our content in our webpage, it is more like using the enter key when typing. -->
+
+<!-- HTML Tags
+1. Closing tags
+2. Self closing tags examples are br, hr ,img -->
+
+<!-- HTML ATTRIBUTES 
+<hr size='3'> attributes gives more info or more option to an elmeent -->
+
+<!-- HTML BOILERPLATE
+tHis is the structure in which html document are been wrriten in. 
+1. Doctype - this line tells the browser the html version we're using.
+2. The root html element- all our content and structure of the website are out in here, the opening tag of the htmk element has an attribute lang and this is use to set the lnaguage our content is in.
+3. The head elment - is also another vital element of html that holds more information about the website and this information aren't displayed on the website. 
+4. The body element -this is where all of the text, content and structure of the websities goes 
+-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Kenny's Personal Website</title>
+  </head>
+  <body>
+    <h1 id="top">Adeyemi Kehinde</h1>
+    <!-- the em element to make emphasis on our code which is to italic we can also use the i element -->
+    <!-- to bolden our text we can use the <strong> element  -->
+    <p>
+      <em>An aspriring <strong>Software Engineer</strong></em>
+    </p>
+    <p>
+      I'm an aspring software developer. I love cofee and doing hard things.
+    </p>
+    <!-- the hr element gives our website a paragraph level break -->
+    <hr />
+    <h3>Book and Teaching</h3>
+    <!-- HTML LISTS -->
+    <!-- ul is a list that gives us a bullet point list. the li list the item in a parent element like ul or ol. For the ul, the type of bullet point can be changed to a square type, circles, triangle and all and this can only be done in css-->
+    <ul>
+      <li>
+        In 2021 and 2022, Karen Levy and I taught a new course entitled Choices
+        and Consequences in Computing (INFO 1260 / CS 1340). The course is
+        designed at an introductory level with no formal prerequisites, and
+        covers a range of ethical, societal, and policy implications of
+        computing and information.
+      </li>
+      <li>
+        D. Easley, J. Kleinberg. Networks, Crowds, and Markets: Reasoning About
+        a Highly Connected World. Cambridge University Press, 2010.
+        <ul>
+          <li>
+            <em
+              >This book is based on an inter-disciplinary course that we teach
+              entitled Networks. The book, like the course, is designed at the
+              introductory undergraduate level with no formal prerequisites. To
+              support deeper explorations, most of the chapters are supplemented
+              with optional advanced sections.</em
+            >
+          </li>
+        </ul>
+      </li>
+      <li>
+        J. Kleinberg, E. Tardos. Algorithm Design. Addison Wesley, 2005
+        <ul>
+          <li>
+            <em>
+              This book is based on the undergraduate algorithms course that we
+              both teach. We also use the more advanced parts for our
+              graduate</em
+            >
+            algorithms course.
+          </li>
+        </ul>
+      </li>
+      <li>
+        An on-line course on edX entitled Networks, Crowds, and Markets, with
+        David Easley and Eva Tardos.
+      </li>
+      <li>
+        Recent courses at Cornell:
+        <ul>
+          <li>The Structure of Information Networks <em>(CS 6850)</em>.</li>
+          <li>
+            Networks<em
+              >(with David Easley and Eva Tardos; ECON 2040 / SOC 2090 / CS 2850
+              / INFO 2040)</em
+            >.
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <hr />
+
+    <h3>My Hobbies</h3>
+    <!-- in terms of listing our items with numbers, the ol element is the guy. In the orderd list(ol), there are global varibales are they are the start, reversed, and the type
+    start - this tell the ol the number in which it should start numbering from. 
+    type - this specify the type of numbering that the ol lists should write e.g a is for lowercase letters, A is for uppercase letters, i is for lowercase roman numerals, I is for uppercase roman numerals and 1 is for numbers which is by default
+       -->
+    <ol start="7">
+      <li>I love coding</li>
+      <li>I love build things and doing challanging things</li>
+      <li>I love playing musical instruments</li>
+    </ol>
+    <ol reversed>
+      <li>I love coding</li>
+      <li>I love build things and doing challanging things</li>
+      <li>I love playing musical instruments</li>
+    </ol>
+    <ol type="a">
+      <li>I love coding</li>
+      <li>I love build things and doing challanging things</li>
+      <li>I love playing musical instruments</li>
+    </ol>
+
+    <!-- Image Element- this is a self closing tag. In the img element we can have an attribute that is called the src, and this attribute fetches the picture either with the path or the url 
+    we can also have the alt atribute, which helps us display text just incase the picture in the source isnt available. In the img element we can also have other attributes like the width, the height which are use to set the sizes of thr images-->
+    <!-- url  -->
+    <img src="https://bit.ly/Jhkimg" alt="Jon's Kleinberg Image" />
+    <!-- path -->
+    <img src="/HTML/image/johimg.jpeg" alt="Jon's Kleinberg Image" />
+
+    <!-- Anchor element - The <a> HTML element (or anchor element), with its href attribute, creates a hyperlink to web pages, files, email addresses, locations in the same page, or anything else a URL can address. The main attribute we are looking here is the href att and this is the part that hold the link-->
+    <!-- the br element which is called the line break helps us to give a libe spacing in our webiste  -->
+    <br />
+    <br />
+    <a href="https://www.cs.cornell.edu/home/kleinber/">Joh's Connel Page =</a>
+    <br />
+    <br />
+    <!-- we can also navigate to another screen in our webiste just by inputting th file name in the href part, also <a> as an attribute that helps us open a new tab probably because you dont want to leave your website and this is the target attributes -->
+    <a href="hobbies.html" target="_blank">My Hobbies</a>
+    <br />
+
+    <!-- Tables- in the table element we have the tr element which is called the row element, so it i use to structure our html content in a row way whic can now take in data and that brings us to the the element. The table element can also take in headings which is the th element-->
+    <table>
+      <tr>
+        <th>Names</th>
+        <td>Kenny</td>
+        <td>Taiwo</td>
+      </tr>
+      <tr>
+        <th>Age</th>
+        <td>19</td>
+        <td>20</td>
+      </tr>
+    </table>
+    <br />
+    <br />
+    <br />
+    <br />
+    <h3>Skills</h3>
+    <table>
+      <tr>
+        <td>iOS Developmet</td>
+        <td>⭐⭐⭐⭐⭐</td>
+        <td>Photography</td>
+        <td>⭐⭐⭐</td>
+      </tr>
+      <tr>
+        <td>Web Developmet</td>
+        <td>⭐⭐⭐</td>
+        <td>Painting</td>
+        <td>⭐⭐</td>
+      </tr>
+    </table>
+    <!-- Forms- The <form> HTML element represents a document section containing interactive controls for submitting information. -->
+    <form action="mailto:adeyemikennyk211gmail.com" method="post">
+      <label for="">Your name</label>
+      <input type="text" /><br />
+      <label for="">Passowrd</label>
+      <input type="password" name="" id="" />
+      <input type="submit" />
+      <p>which framework do you prefer?</p>
+      <label for="">Flutter</label>
+      <input type="checkbox" name="frame" id="" />
+      <label for="">Xamarin</label>
+      <input type="checkbox" name="frame" id="" />
+      <label for="">React Native</label>
+      <input type="checkbox" name="frame" id="" />
+      <br />
+      <label for="">Flutter</label>
+      <input type="radio" name="frame" id="" />
+      <label for="">Xamarin</label>
+      <input type="radio" name="frame" id="" />
+      <label for="">React Native</label>
+      <input type="radio" name="frame" id="" />
+    </form>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+  </body>
+</html>

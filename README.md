@@ -1,0 +1,1 @@
+This folder is written down all the code I leanrt and every courses I take to doucment my journey as a self taught software developer from MARCH 21st 2023. I'm starting with web development which is HTMl precisely. I have prior knowledge in coding - i know dart, so I will be web dev along with learning dart fully and leanring thr UI toolkit which is flutter.

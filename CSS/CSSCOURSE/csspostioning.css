@@ -1,0 +1,47 @@
+.red {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  /* padding: 20px 20px; */
+  /*  4 syntax - top right bottom left */
+  /*  two sytax - top and bottom, right and left  */
+  /* three syntax - top , left and right and bottom */
+  /* position: relative;
+  right: 200px;
+*/
+  position: absolute;
+  left: 100px;
+  top: 100px;
+}
+
+.blue {
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  /* position: relative;
+  top: 0px; */
+  /* position: relative;
+  left: 100px; */
+  position: absolute;
+  top: 200px;
+  left: 200px;
+}
+
+.yellow {
+  height: 100px;
+  width: 100px;
+  background-color: yellow;
+  /* padding: 20px; */
+  /* margin-top: 0px; */
+  /* position: absolute;
+  right: 30px; */
+  /* margin-right: 50%; */
+  /* absolute postion is always relative to its parent element which is the body */
+  /* position: relative;
+  left: 200px; */
+  position: absolute;
+  top: 0;
+}
+/* text align  */
+/* This helps us to center our element that doesnt have a width set relative to the body */
+/* If its have the width, you can just use the margin auto value. */
