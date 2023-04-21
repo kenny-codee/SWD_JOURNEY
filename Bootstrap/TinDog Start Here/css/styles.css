@@ -19,7 +19,6 @@ h2 {
   font-weight: 900;
   color: white;
   font-size: 2.5rem;
-  padding: ;
 }
 /* in bootstrap we have the container which helps us padd out from the edge of the screen and makes our webpage responsive
  */
@@ -99,16 +98,13 @@ p {
 
 #press {
   background-color: #ef8172;
+  text-align: center;
 }
 
 .dog-img {
   width: 100px;
   border-radius: 100%;
-  margin: 10px 20px 10px 10px;
-}
-
-#press {
-  text-align: center;
+  margin: 20px;
 }
 
 div {
@@ -116,7 +112,7 @@ div {
 }
 
 .logo {
-  width: 250px;
+  width: 20%;
   padding-right: 50px;
 }
 
