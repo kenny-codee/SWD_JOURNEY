@@ -1,0 +1,22 @@
+.footer ul li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* gap: 20%; */
+  margin-top: 50px;
+  margin-bottom: 100px;
+  margin-left: 40%;
+}
+
+h5 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.spacing {
+  margin-bottom: 50px;
+}
